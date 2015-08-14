@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css" rel="stylesheet">
+        #chess-timer
+        {
+            display: inline-block;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        #white-timer-container,
+        #black-timer-container
+        {
+            color: #000;
+            padding: 1em 1em .5em 1em;
+            font-size: 2em;
+            display: inline-block;
+        }
+        #reset-container
+        {
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div id="chess-timer">
+        <div id="black-timer-container">
+            <div id="black-timer"></div>
+            <button id="black-button">Start Black</button>
+        </div>
+        <div id="white-timer-container">
+            <div id="white-timer"></div>
+            <button id="white-button">Start White</button>
+        </div>
+        <div id="reset-container">
+            <button id="reset-button">Reset</button>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+    <script src="chess-timer.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
